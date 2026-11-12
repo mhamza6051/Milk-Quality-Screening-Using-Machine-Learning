@@ -1,0 +1,20 @@
+# Core libraries
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Web App
+streamlit
+
+# Jupyter Notebook (for .ipynb)
+notebook
+
+# Optional but recommended (for smoother experience)
+scipy
