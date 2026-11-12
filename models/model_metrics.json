@@ -1,0 +1,49 @@
+{
+    "best_model": "Logistic Regression",
+    "test_accuracy": 0.871,
+    "test_precision": 0.8689672641050621,
+    "test_recall": 0.871,
+    "test_f1": 0.8685406099904495,
+    "feature_set_used": [
+        "pH",
+        "Titratable_Acidity",
+        "Fat_Percentage",
+        "SNF_Percentage",
+        "Lactose",
+        "Protein",
+        "Density",
+        "Conductivity",
+        "Freezing_Point"
+    ],
+    "excluded_features": [
+        "Water_Adulteration_Percent",
+        "Urea",
+        "Detergent",
+        "Starch",
+        "Neutralizers",
+        "Preservatives",
+        "Antibiotics"
+    ],
+    "cross_validation_results": [
+        {
+            "Model": "Logistic Regression",
+            "CV Mean Accuracy": 0.8679,
+            "CV Std": 0.008309031231136377
+        },
+        {
+            "Model": "SVM",
+            "CV Mean Accuracy": 0.9058999999999999,
+            "CV Std": 0.009855962662266946
+        },
+        {
+            "Model": "Gradient Boosting",
+            "CV Mean Accuracy": 0.9404999999999999,
+            "CV Std": 0.005594640292279721
+        },
+        {
+            "Model": "Random Forest",
+            "CV Mean Accuracy": 0.9415999999999999,
+            "CV Std": 0.004363484845854261
+        }
+    ]
+}
